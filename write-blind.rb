@@ -29,7 +29,7 @@ class WriteBlind
 				word = ""
 				print_word word
 			when "\u007F" #backspace
-				word = word[0..word.length-2]
+				word.chop! unless word.empty?
 				print_word word
 			else
 				word = word + char unless word.length > 45
