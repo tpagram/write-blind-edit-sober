@@ -1,4 +1,4 @@
-#Write blind; edit sober
+# Write blind; edit sober
 
 Write blind; edit sober is a simple ruby script that lets you write text from the command line while only displaying the last word you've written.
 
